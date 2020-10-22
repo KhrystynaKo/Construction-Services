@@ -1,2 +1,14 @@
 @import "variables";
+@import "mixins";
+
+.header {
+    &-intro {
+    background-image: url(../img/background-header.jpg);
+    background-size: cover;
+    }
+
+    &-title {
+        line-height: 1;
+    }
+}
 
