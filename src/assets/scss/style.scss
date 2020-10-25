@@ -7,8 +7,14 @@
     background-size: cover;
     }
 
-    &-title {
-        line-height: 1;
+    &-sosial {
+        color: #222222;
+        transition: color 0.2s linear;
+        
+        &:hover,
+        &:focus {
+            color: #ffffff;
+        }
     }
 }
 
@@ -20,4 +26,31 @@
 .reviews {
     background-image: url(../img/background-review.jpg);
     background-size: cover;
+}
+
+button {
+    &:focus {
+        outline:none;
+    } 
+}
+.burger-menu {
+    font-size: 1.5rem;
+    color: #ffffff;
+    transition: color 0.2s linear;
+        
+        &:hover,
+        &:focus {
+            color: #fdc91e;
+            outline:none;
+        }
+}
+
+.nav-link_custom {
+    color: #ffffff;
+        transition: color 0.2s linear;
+        
+        &:hover,
+        &:focus {
+            color: #fdc91e;
+        }
 }
