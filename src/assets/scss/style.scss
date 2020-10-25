@@ -2,74 +2,91 @@
 @import "mixins";
 
 .header {
-    &-intro {
-    background-image: url(../img/background-header.jpg);
-    background-size: cover;
-    }
+  &-intro {
+  background-image: url(../img/background-header.jpg);
+  background-size: cover;
+  }
 
-    &-sosial {
-        color: #222222;
-        transition: color 0.2s linear;
-        
-        &:hover,
-        &:focus {
-            color: #ffffff;
-        }
+  &-sosial {
+    color: #222222;
+    transition: color 0.2s linear;
+    
+    &:hover,
+    &:focus {
+        color: #ffffff;
     }
+  }
 }
 
 .made {
-    background-image: url(../img/background.jpg);
-    background-size: cover;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
 }
 
 .reviews {
-    background-image: url(../img/background-review.jpg);
-    background-size: cover;
+  background-image: url(../img/background-review.jpg);
+  background-size: cover;
 }
 
 button {
-    &:focus {
-        outline:none;
-    } 
+  &:focus {
+    outline:none;
+  } 
 }
 .burger-menu {
-    font-size: 1.5rem;
-    color: #ffffff;
-    transition: color 0.2s linear;
-        
-        &:hover,
-        &:focus {
-            color: #fdc91e;
-            outline:none;
-        }
+  font-size: 1.5rem;
+  color: #ffffff;
+  transition: color 0.2s linear;
+    
+  &:hover,
+  &:focus {
+      color: #fdc91e;
+      outline:none;
+  }
 }
 
 .nav-link_custom {
-    color: #ffffff;
-        transition: color 0.2s linear;
-        
-        &:hover,
-        &:focus {
-            color: #fdc91e;
-        }
+  color: #ffffff;
+    transition: color 0.2s linear;
+    
+    &:hover,
+    &:focus {
+        color: #fdc91e;
+  }
 }
 
 .up {
-    position: fixed;
-    font-size: 2rem;
-	right: 45px;
-    bottom: 45px;
-    z-index: 100;
-    
+  position: fixed;
+  font-size: 2rem;
+  right: 45px;
+  bottom: 45px;
+  z-index: 100;
+  
 
-    &-arrow {
-        color: #353535;
-        transition: color 0.2s linear;
+  &-arrow {
+    color: #353535;
+    transition: color 0.2s linear;
 
-        &:hover,
-        &:focus {
-            color: #fdc91e;
-        }
+    &:hover,
+    &:focus {
+        color: #fdc91e;
     }
+  }
 }
+
+.footer {
+  background-image: url(../img/background-footer.jpg);
+  background-size: cover;
+
+  &-sosial {
+    background-color: #fdc91e;
+    color: #ffffff;
+    transition: color 0.2s linear; 
+
+    &:hover,
+    &:focus {
+        color: #2e2e2e;
+    }
+  }
+}
+  
