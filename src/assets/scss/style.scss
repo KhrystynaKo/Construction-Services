@@ -54,3 +54,22 @@ button {
             color: #fdc91e;
         }
 }
+
+.up {
+    position: fixed;
+    font-size: 2rem;
+	right: 45px;
+    bottom: 45px;
+    z-index: 100;
+    
+
+    &-arrow {
+        color: #353535;
+        transition: color 0.2s linear;
+
+        &:hover,
+        &:focus {
+            color: #fdc91e;
+        }
+    }
+}
