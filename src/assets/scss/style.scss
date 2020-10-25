@@ -1,5 +1,6 @@
-@import "variables";
-@import "mixins";
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 .header {
   &-intro {
